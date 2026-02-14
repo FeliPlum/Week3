@@ -20,6 +20,12 @@ body{
     color:mediumaquamarine;
     background-color: chocolate;
     padding: 1rem;
+    animation: _a_headingBackground 1s ease-in-out infinite forwards;
+}
+
+@keyframes _a_headingBackground {
+    33%{background-color: darkolivegreen;}
+    67%{background-color: midnightblue;}
 }
 
 
@@ -52,6 +58,11 @@ body{
     width: 8rem;
     border: 1px solid grey;
     aspect-ratio: 1;
+    animation: _a_images 1s ease infinite forwards;
+}
+
+@keyframes _a_images {
+    50%{border-radius: 50%;}
 }
 
 .end-text{
@@ -63,4 +74,11 @@ body{
 .footer{
     padding : 1rem;
     color: slategrey;
+    font-size: 100%;
+    animation: _a_footer 0.5s ease-in-out infinite forwards;
+    height: 7rem;
+}
+
+@keyframes _a_footer{
+    50%{font-size: 500%;}
 }
