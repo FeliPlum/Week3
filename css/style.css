@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(253, 247, 238);
+}
+
+
+.heading{
+    text-align: center;
+    font-family: "Playwrite AT", cursive;
+    color:mediumaquamarine;
+    background-color: chocolate;
+    padding: 1rem;
+}
+
+
+.title{
+    margin-bottom: 10px;
+}
+
+
+.main{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: "SN Pro", sans-serif;
+}
+
+
+.images{
+    padding: 1rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.images > img{
+    border-radius: 5%;
+}
+
+.ingredient-image{
+    width: 8rem;
+    border: 1px solid grey;
+    aspect-ratio: 1;
+}
+
+.end-text{
+    text-align: center;
+    font-size: larger;
+}
+
+
+.footer{
+    padding : 1rem;
+    color: slategrey;
+}
